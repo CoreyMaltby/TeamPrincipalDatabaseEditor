@@ -1,38 +1,16 @@
 {
   "dirty_air": {
     "enabled": true,
-    "curve": [
-      {
-        "gap": 0.1,
-        "mult": 1.01
-      },
-      {
-        "gap": 0.3,
-        "mult": 1.008
-      },
-      {
-        "gap": 0.6,
-        "mult": 1.004
-      },
-      {
-        "gap": 1.0,
-        "mult": 1.002
-      },
-      {
-        "gap": 2.0,
-        "mult": 1.0
-      }
-    ],
-    "max_stack": 1,
+    "max_stack": 1.0,
     "stack_decay": 0.5
   },
   "tyres": {
     "enabled": true,
     "compounds": {
       "soft": {
-        "base_delta": -0.1,
+        "base_delta": -0.09999999999999998,
         "deg_per_lap": 0.038,
-        "cliff_lap": 14,
+        "cliff_lap": 14.0,
         "optimal_temp": [
           10,
           20
@@ -45,7 +23,7 @@
       "medium": {
         "base_delta": 0.3,
         "deg_per_lap": 0.02,
-        "cliff_lap": 20,
+        "cliff_lap": 20.0,
         "optimal_temp": [
           20,
           30
@@ -58,7 +36,7 @@
       "hard": {
         "base_delta": 0.5,
         "deg_per_lap": 0.014,
-        "cliff_lap": 30,
+        "cliff_lap": 30.0,
         "optimal_temp": [
           30,
           40
@@ -71,7 +49,7 @@
       "intermediate": {
         "base_delta": 5.0,
         "deg_per_lap": 0.03,
-        "cliff_lap": 18,
+        "cliff_lap": 18.0,
         "optimal_temp": [
           15,
           30
@@ -84,7 +62,7 @@
       "wet": {
         "base_delta": 8.0,
         "deg_per_lap": 0.04,
-        "cliff_lap": 22,
+        "cliff_lap": 22.0,
         "optimal_temp": [
           10,
           25
@@ -101,7 +79,7 @@
     ],
     "temperature_effects": {
       "cold": {
-        "max_c": 20,
+        "max_c": 20.0,
         "compounds": {
           "soft": {
             "pace": 0.0,
@@ -126,7 +104,7 @@
         }
       },
       "hot": {
-        "min_c": 30,
+        "min_c": 30.0,
         "compounds": {
           "soft": {
             "pace": 0.18,
@@ -457,7 +435,7 @@
   "injuries": {
     "dnf_injury_chance": 0.01,
     "severe_chance": 0.1,
-    "minor_weeks": 5,
-    "severe_weeks": 20
+    "minor_weeks": 5.0,
+    "severe_weeks": 20.0
   }
 }
