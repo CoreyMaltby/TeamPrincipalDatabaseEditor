@@ -1,0 +1,42 @@
+{
+  "suppliers": {
+    "GripMaster": {
+      "pace": {
+        "soft": -0.2,
+        "medium": 0.1,
+        "hard": 0.3,
+        "intermediate": 0.45,
+        "wet": 0.65
+      },
+      "durability": {
+        "soft": -0.05,
+        "medium": 0.0,
+        "hard": 0.05,
+        "intermediate": -0.02,
+        "wet": 0.0
+      },
+      "prices": {"works": 0, "partner": 0, "customer": 10},
+      "trend": {"pace": -0.01, "durability": 0.01},
+      "variance": {"pace": 0.03, "durability": 0.02}
+    },
+    "Durabo": {
+      "pace": {
+        "soft": 0.1,
+        "medium": 0.0,
+        "hard": -0.1,
+        "intermediate": 0.25,
+        "wet": 0.4
+      },
+      "durability": {
+        "soft": 0.1,
+        "medium": 0.1,
+        "hard": 0.1,
+        "intermediate": 0.12,
+        "wet": 0.08
+      },
+      "prices": {"works": 0, "partner": 0, "customer": 12.5},
+      "trend": {"pace": 0.01, "durability": -0.01},
+      "variance": {"pace": 0.03, "durability": 0.02}
+    }
+  }
+}

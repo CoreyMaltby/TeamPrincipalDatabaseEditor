@@ -1,0 +1,786 @@
+[
+  {
+    "name": "Red Boar",
+    "active": true,
+    "color_rgb": [
+      0,
+      102,
+      204
+    ],
+    "budget_m": 345,
+    "team_pace": 0.4,
+    "attr": {
+      "slow": -0.1,
+      "med": -0.15,
+      "high": -0.1,
+      "straight": -0.25
+    },
+    "tyre_management": 0.9,
+    "dirty_air_sensitivity": 1.2,
+    "prestige_base": 60,
+    "history": {
+      "seasons": 20,
+      "championships": 5,
+      "wins": 100,
+      "podiums": 200,
+      "poles": 90
+    },
+    "engine": "Red Boar PU",
+    "upgrades": {
+      "front_wing": 2,
+      "underfloor": 0,
+      "rear_wing": 0,
+      "drag": 0,
+      "chassis": 0
+    },
+    "headquarters": {
+      "hospitality_pr_center": 4,
+      "wind_tunnel": 3,
+      "engine_plant": 1,
+      "test_track": 1
+    },
+    "negotiation_points": 0,
+    "tyre_contract": {
+      "supplier": "GripMaster",
+      "type": "works"
+    }
+  },
+  {
+    "name": "Scuderia Rossa",
+    "active": true,
+    "color_rgb": [
+      200,
+      16,
+      46
+    ],
+    "budget_m": 400,
+    "team_pace": 0.5,
+    "attr": {
+      "slow": -0.45,
+      "med": 0.025,
+      "high": -0.072,
+      "straight": -0.1
+    },
+    "tyre_management": 1.1,
+    "dirty_air_sensitivity": 0.7,
+    "prestige_base": 58,
+    "engine": "Rossa",
+    "upgrades": {
+      "front_wing": 0,
+      "underfloor": 0,
+      "rear_wing": 0,
+      "drag": 0,
+      "chassis": 0
+    },
+    "headquarters": {
+      "hospitality_pr_center": 4,
+      "wind_tunnel": 3,
+      "engine_plant": 4,
+      "test_track": 1
+    },
+    "negotiation_points": 0,
+    "history": {
+      "seasons": 3,
+      "championships": 0,
+      "wins": 77,
+      "podiums": 5,
+      "poles": 24
+    },
+    "tyre_contract": {
+      "supplier": "GripMaster",
+      "type": "partner"
+    }
+  },
+  {
+    "name": "McMean",
+    "active": true,
+    "color_rgb": [
+      255,
+      128,
+      0
+    ],
+    "budget_m": 320,
+    "team_pace": 0.45,
+    "attr": {
+      "slow": -0.15,
+      "med": -0.1,
+      "high": -0.25,
+      "straight": 0.075
+    },
+    "tyre_management": 0.75,
+    "dirty_air_sensitivity": 1.0,
+    "prestige_base": 54,
+    "engine": "Mercurion",
+    "engine_contract_seasons": 3,
+    "upgrades": {
+      "front_wing": 0,
+      "underfloor": 0,
+      "rear_wing": 0,
+      "drag": 0,
+      "chassis": 0
+    },
+    "headquarters": {
+      "hospitality_pr_center": 3,
+      "wind_tunnel": 3,
+      "engine_plant": 0,
+      "test_track": 1
+    },
+    "negotiation_points": 0,
+    "history": {
+      "seasons": 5,
+      "championships": 5,
+      "wins": 15,
+      "podiums": 122,
+      "poles": 26
+    },
+    "tyre_contract": {
+      "supplier": "Durabo",
+      "type": "works"
+    }
+  },
+  {
+    "name": "Mercurion",
+    "active": true,
+    "color_rgb": [
+      0,
+      190,
+      200
+    ],
+    "budget_m": 385,
+    "team_pace": 0.6,
+    "attr": {
+      "slow": -0.17,
+      "med": -0.25,
+      "high": 0.037,
+      "straight": 0.247
+    },
+    "tyre_management": 1.0,
+    "dirty_air_sensitivity": 1.0,
+    "prestige_base": 56,
+    "engine": "Mercurion",
+    "upgrades": {
+      "front_wing": 0,
+      "underfloor": 0,
+      "rear_wing": 0,
+      "drag": 0,
+      "chassis": 0
+    },
+    "headquarters": {
+      "hospitality_pr_center": 3,
+      "wind_tunnel": 2,
+      "engine_plant": 4,
+      "test_track": 1
+    },
+    "negotiation_points": 0,
+    "history": {
+      "seasons": 1,
+      "championships": 5,
+      "wins": 2,
+      "podiums": 139,
+      "poles": 54
+    },
+    "tyre_contract": {
+      "supplier": "Durabo",
+      "type": "partner"
+    }
+  },
+  {
+    "name": "Ashton Darting",
+    "active": true,
+    "color_rgb": [
+      30,
+      120,
+      70
+    ],
+    "budget_m": 340,
+    "team_pace": 1.0,
+    "attr": {
+      "slow": -0.104,
+      "med": -0.295,
+      "high": 0.101,
+      "straight": 0.175
+    },
+    "tyre_management": 0.65,
+    "dirty_air_sensitivity": 1.0,
+    "prestige_base": 52,
+    "engine": "Mercurion",
+    "engine_contract_seasons": 2,
+    "upgrades": {
+      "front_wing": 0,
+      "underfloor": 0,
+      "rear_wing": 0,
+      "drag": 0,
+      "chassis": 0
+    },
+    "headquarters": {
+      "hospitality_pr_center": 4,
+      "wind_tunnel": 5,
+      "engine_plant": 0
+    },
+    "negotiation_points": 0,
+    "history": {
+      "seasons": 19,
+      "championships": 0,
+      "wins": 33,
+      "podiums": 17,
+      "poles": 28
+    },
+    "tyre_contract": {
+      "supplier": "GripMaster",
+      "type": "customer"
+    }
+  },
+  {
+    "name": "French Blue",
+    "active": true,
+    "color_rgb": [
+      0,
+      150,
+      255
+    ],
+    "budget_m": 260,
+    "team_pace": 1.35,
+    "attr": {
+      "slow": -0.055,
+      "med": -0.142,
+      "high": -0.029,
+      "straight": -0.079
+    },
+    "tyre_management": 1.0,
+    "dirty_air_sensitivity": 1.0,
+    "prestige_base": 47,
+    "engine": "French",
+    "upgrades": {
+      "front_wing": 0,
+      "underfloor": 0,
+      "rear_wing": 0,
+      "drag": 0,
+      "chassis": 0
+    },
+    "headquarters": {
+      "hospitality_pr_center": 3,
+      "wind_tunnel": 1,
+      "engine_plant": 2
+    },
+    "negotiation_points": 0,
+    "history": {
+      "seasons": 2,
+      "championships": 5,
+      "wins": 38,
+      "podiums": 89,
+      "poles": 55
+    },
+    "tyre_contract": {
+      "supplier": "Durabo",
+      "type": "customer"
+    }
+  },
+  {
+    "name": "Alpha Bison",
+    "active": true,
+    "color_rgb": [
+      40,
+      40,
+      120
+    ],
+    "budget_m": 205,
+    "team_pace": 1.55,
+    "attr": {
+      "slow": 0.01,
+      "med": -0.063,
+      "high": -0.061,
+      "straight": -0.022
+    },
+    "tyre_management": 0.9,
+    "dirty_air_sensitivity": 1.0,
+    "prestige_base": 44,
+    "engine": "Red Boar PU",
+    "engine_contract_seasons": 3,
+    "upgrades": {
+      "front_wing": 0,
+      "underfloor": 0,
+      "rear_wing": 0,
+      "drag": 0,
+      "chassis": 0
+    },
+    "headquarters": {
+      "hospitality_pr_center": 2,
+      "wind_tunnel": 1,
+      "engine_plant": 0
+    },
+    "negotiation_points": 0,
+    "history": {
+      "seasons": 5,
+      "championships": 0,
+      "wins": 64,
+      "podiums": 119,
+      "poles": 5
+    },
+    "tyre_contract": {
+      "supplier": "GripMaster",
+      "type": "customer"
+    }
+  },
+  {
+    "name": "Saubrenn",
+    "active": true,
+    "color_rgb": [
+      0,
+      180,
+      90
+    ],
+    "budget_m": 185,
+    "team_pace": 1.45,
+    "attr": {
+      "slow": -0.253,
+      "med": 0.066,
+      "high": 0.057,
+      "straight": 0.064
+    },
+    "tyre_management": 1.1,
+    "dirty_air_sensitivity": 1.0,
+    "prestige_base": 45,
+    "engine": "Rossa",
+    "engine_contract_seasons": 2,
+    "upgrades": {
+      "front_wing": 0,
+      "underfloor": 0,
+      "rear_wing": 0,
+      "drag": 0,
+      "chassis": 0
+    },
+    "headquarters": {
+      "hospitality_pr_center": 2,
+      "wind_tunnel": 1,
+      "engine_plant": 0
+    },
+    "negotiation_points": 0,
+    "history": {
+      "seasons": 19,
+      "championships": 0,
+      "wins": 89,
+      "podiums": 100,
+      "poles": 25
+    },
+    "tyre_contract": {
+      "supplier": "Durabo",
+      "type": "customer"
+    }
+  },
+  {
+    "name": "Hossden GP",
+    "active": true,
+    "color_rgb": [
+      200,
+      200,
+      200
+    ],
+    "budget_m": 190,
+    "team_pace": 1.35,
+    "attr": {
+      "slow": -0.001,
+      "med": 0.006,
+      "high": 0.001,
+      "straight": -0.009
+    },
+    "tyre_management": 1.2,
+    "dirty_air_sensitivity": 1.0,
+    "prestige_base": 42,
+    "engine": "CosmoTech V6",
+    "engine_supplier": "CosmoTech",
+    "engine_contract_seasons": 3,
+    "upgrades": {
+      "front_wing": 0,
+      "underfloor": 0,
+      "rear_wing": 0,
+      "drag": 0,
+      "chassis": 0
+    },
+    "headquarters": {
+      "hospitality_pr_center": 2,
+      "wind_tunnel": 0,
+      "engine_plant": 0
+    },
+    "negotiation_points": 0,
+    "history": {
+      "seasons": 8,
+      "championships": 2,
+      "wins": 93,
+      "podiums": 120,
+      "poles": 72
+    },
+    "tyre_contract": {
+      "supplier": "GripMaster",
+      "type": "customer"
+    }
+  },
+  {
+    "name": "Willens Racing",
+    "active": true,
+    "color_rgb": [
+      0,
+      90,
+      200
+    ],
+    "budget_m": 215,
+    "team_pace": 1.3,
+    "attr": {
+      "slow": -0.03,
+      "med": 0.11,
+      "high": 0.167,
+      "straight": -0.3
+    },
+    "tyre_management": 1.0,
+    "dirty_air_sensitivity": 1.0,
+    "prestige_base": 43,
+    "engine": "CosmoTech V6",
+    "engine_supplier": "CosmoTech",
+    "engine_contract_seasons": 2,
+    "upgrades": {
+      "front_wing": 0,
+      "underfloor": 0,
+      "rear_wing": 0,
+      "drag": 0,
+      "chassis": 0
+    },
+    "headquarters": {
+      "hospitality_pr_center": 2,
+      "wind_tunnel": 2,
+      "engine_plant": 0
+    },
+    "negotiation_points": 0,
+    "history": {
+      "seasons": 5,
+      "championships": 5,
+      "wins": 86,
+      "podiums": 52,
+      "poles": 7
+    },
+    "tyre_contract": {
+      "supplier": "Durabo",
+      "type": "customer"
+    }
+  },
+  {
+    "name": "Cadylacky Motors",
+    "active": true,
+    "color_rgb": [
+      252,
+      186,
+      3
+    ],
+    "budget_m": 295,
+    "team_pace": 1.45,
+    "attr": {
+      "slow": 0.003,
+      "med": 0.066,
+      "high": 0.057,
+      "straight": 0.064
+    },
+    "tyre_management": 1.0,
+    "dirty_air_sensitivity": 1.0,
+    "prestige_base": 45,
+    "engine": "Rossa",
+    "engine_contract_seasons": 3,
+    "upgrades": {
+      "front_wing": 0,
+      "underfloor": 0,
+      "rear_wing": 0,
+      "drag": 0,
+      "chassis": 0
+    },
+    "headquarters": {
+      "hospitality_pr_center": 3,
+      "wind_tunnel": 2,
+      "engine_plant": 0
+    },
+    "negotiation_points": 0,
+    "history": {
+      "seasons": 5,
+      "championships": 1,
+      "wins": 43,
+      "podiums": 135,
+      "poles": 32
+    },
+    "tyre_contract": {
+      "supplier": "GripMaster",
+      "type": "customer"
+    }
+  },
+  {
+    "name": "Pantera F1",
+    "active": false,
+    "color_rgb": [
+      180,
+      0,
+      180
+    ],
+    "budget_m": 110,
+    "team_pace": 1.0,
+    "attr": {
+      "slow": -0.02,
+      "med": 0.05,
+      "high": 0.04,
+      "straight": -0.03
+    },
+    "tyre_management": 1.0,
+    "dirty_air_sensitivity": 1.0,
+    "prestige_base": 40,
+    "engine": "Mercurion",
+    "engine_contract_seasons": 2,
+    "upgrades": {
+      "front_wing": 0,
+      "underfloor": 0,
+      "rear_wing": 0,
+      "drag": 0,
+      "chassis": 0
+    },
+    "headquarters": {
+      "hospitality_pr_center": 2,
+      "wind_tunnel": 0,
+      "engine_plant": 0
+    },
+    "negotiation_points": 0,
+    "history": {
+      "seasons": 3,
+      "championships": 4,
+      "wins": 56,
+      "podiums": 170,
+      "poles": 22
+    },
+    "tyre_contract": {
+      "supplier": "Durabo",
+      "type": "customer"
+    }
+  },
+  {
+    "name": "Lola Racing",
+    "active": false,
+    "color_rgb": [
+      0,
+      150,
+      150
+    ],
+    "budget_m": 150,
+    "team_pace": 1.55,
+    "attr": {
+      "slow": 0.01,
+      "med": -0.04,
+      "high": 0.03,
+      "straight": 0.02
+    },
+    "tyre_management": 1.1,
+    "dirty_air_sensitivity": 1.0,
+    "prestige_base": 42,
+    "engine": "Rossa",
+    "engine_contract_seasons": 3,
+    "upgrades": {
+      "front_wing": 0,
+      "underfloor": 0,
+      "rear_wing": 0,
+      "drag": 0,
+      "chassis": 0
+    },
+    "headquarters": {
+      "hospitality_pr_center": 1,
+      "wind_tunnel": 0,
+      "engine_plant": 0
+    },
+    "negotiation_points": 0,
+    "history": {
+      "seasons": 0,
+      "championships": 3,
+      "wins": 87,
+      "podiums": 104,
+      "poles": 72
+    },
+    "tyre_contract": {
+      "supplier": "GripMaster",
+      "type": "customer"
+    }
+  },
+  {
+    "name": "Zephyr GP",
+    "active": false,
+    "color_rgb": [
+      120,
+      120,
+      255
+    ],
+    "budget_m": 130,
+    "team_pace": 1.4,
+    "attr": {
+      "slow": 0.01,
+      "med": -0.05,
+      "high": 0.02,
+      "straight": 0.03
+    },
+    "tyre_management": 1.0,
+    "dirty_air_sensitivity": 1.0,
+    "prestige_base": 40,
+    "engine": "Mercurion",
+    "engine_contract_seasons": 2,
+    "upgrades": {
+      "front_wing": 0,
+      "underfloor": 0,
+      "rear_wing": 0,
+      "drag": 0,
+      "chassis": 0
+    },
+    "headquarters": {
+      "hospitality_pr_center": 1,
+      "wind_tunnel": 0,
+      "engine_plant": 0
+    },
+    "negotiation_points": 0,
+    "history": {
+      "seasons": 16,
+      "championships": 2,
+      "wins": 83,
+      "podiums": 91,
+      "poles": 49
+    },
+    "tyre_contract": {
+      "supplier": "Durabo",
+      "type": "customer"
+    }
+  },
+  {
+    "name": "Phoenix Racing",
+    "active": false,
+    "color_rgb": [
+      255,
+      80,
+      80
+    ],
+    "budget_m": 140,
+    "team_pace": 1.35,
+    "attr": {
+      "slow": -0.03,
+      "med": 0.04,
+      "high": -0.02,
+      "straight": 0.05
+    },
+    "tyre_management": 1.0,
+    "dirty_air_sensitivity": 1.0,
+    "prestige_base": 41,
+    "engine": "Rossa",
+    "engine_contract_seasons": 3,
+    "upgrades": {
+      "front_wing": 0,
+      "underfloor": 0,
+      "rear_wing": 0,
+      "drag": 0,
+      "chassis": 0
+    },
+    "headquarters": {
+      "hospitality_pr_center": 2,
+      "wind_tunnel": 4,
+      "engine_plant": 0
+    },
+    "negotiation_points": 0,
+    "history": {
+      "seasons": 8,
+      "championships": 1,
+      "wins": 71,
+      "podiums": 176,
+      "poles": 1
+    },
+    "tyre_contract": {
+      "supplier": "GripMaster",
+      "type": "customer"
+    }
+  },
+  {
+    "name": "Orion Motorsport",
+    "active": false,
+    "color_rgb": [
+      80,
+      255,
+      120
+    ],
+    "budget_m": 125,
+    "team_pace": 1.5,
+    "attr": {
+      "slow": 0.02,
+      "med": 0.01,
+      "high": -0.04,
+      "straight": -0.02
+    },
+    "tyre_management": 1.0,
+    "dirty_air_sensitivity": 1.0,
+    "prestige_base": 39,
+    "engine": "Mercurion",
+    "engine_contract_seasons": 2,
+    "upgrades": {
+      "front_wing": 0,
+      "underfloor": 0,
+      "rear_wing": 0,
+      "drag": 0,
+      "chassis": 0
+    },
+    "headquarters": {
+      "hospitality_pr_center": 1,
+      "wind_tunnel": 0,
+      "engine_plant": 0
+    },
+    "negotiation_points": 0,
+    "history": {
+      "seasons": 14,
+      "championships": 5,
+      "wins": 10,
+      "podiums": 85,
+      "poles": 5
+    },
+    "tyre_contract": {
+      "supplier": "Durabo",
+      "type": "customer"
+    }
+  },
+  {
+    "name": "Valkyrie F1",
+    "active": false,
+    "color_rgb": [
+      200,
+      200,
+      0
+    ],
+    "budget_m": 150,
+    "team_pace": 1.3,
+    "attr": {
+      "slow": -0.01,
+      "med": 0.03,
+      "high": 0.0,
+      "straight": -0.04
+    },
+    "tyre_management": 1.0,
+    "dirty_air_sensitivity": 1.0,
+    "prestige_base": 42,
+    "engine": "Rossa",
+    "engine_contract_seasons": 3,
+    "upgrades": {
+      "front_wing": 0,
+      "underfloor": 0,
+      "rear_wing": 0,
+      "drag": 0,
+      "chassis": 0
+    },
+    "headquarters": {
+      "hospitality_pr_center": 1,
+      "wind_tunnel": 0,
+      "engine_plant": 0
+    },
+    "negotiation_points": 0,
+    "history": {
+      "seasons": 17,
+      "championships": 2,
+      "wins": 17,
+      "podiums": 61,
+      "poles": 61
+    },
+    "tyre_contract": {
+      "supplier": "GripMaster",
+      "type": "customer"
+    }
+  }
+]

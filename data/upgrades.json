@@ -1,0 +1,62 @@
+{
+  "front_wing": [
+    {"cost_m": 10, "attr": {"slow": -0.05}},
+    {"cost_m": 15, "attr": {"slow": -0.05}},
+    {"cost_m": 20, "attr": {"slow": -0.05}},
+    {"cost_m": 25, "attr": {"slow": -0.05}},
+    {"cost_m": 30, "attr": {"slow": -0.05}},
+    {"cost_m": 35, "attr": {"slow": -0.05}},
+    {"cost_m": 40, "attr": {"slow": -0.05}},
+    {"cost_m": 45, "attr": {"slow": -0.05}},
+    {"cost_m": 50, "attr": {"slow": -0.05}},
+    {"cost_m": 55, "attr": {"slow": -0.05}}
+  ],
+  "underfloor": [
+    {"cost_m": 10, "attr": {"med": -0.05}},
+    {"cost_m": 15, "attr": {"med": -0.05}},
+    {"cost_m": 20, "attr": {"med": -0.05}},
+    {"cost_m": 25, "attr": {"med": -0.05}},
+    {"cost_m": 30, "attr": {"med": -0.05}},
+    {"cost_m": 35, "attr": {"med": -0.05}},
+    {"cost_m": 40, "attr": {"med": -0.05}},
+    {"cost_m": 45, "attr": {"med": -0.05}},
+    {"cost_m": 50, "attr": {"med": -0.05}},
+    {"cost_m": 55, "attr": {"med": -0.05}}
+  ],
+  "rear_wing": [
+    {"cost_m": 10, "attr": {"high": -0.05}},
+    {"cost_m": 15, "attr": {"high": -0.05}},
+    {"cost_m": 20, "attr": {"high": -0.05}},
+    {"cost_m": 25, "attr": {"high": -0.05}},
+    {"cost_m": 30, "attr": {"high": -0.05}},
+    {"cost_m": 35, "attr": {"high": -0.05}},
+    {"cost_m": 40, "attr": {"high": -0.05}},
+    {"cost_m": 45, "attr": {"high": -0.05}},
+    {"cost_m": 50, "attr": {"high": -0.05}},
+    {"cost_m": 55, "attr": {"high": -0.05}}
+  ],
+  "drag": [
+    {"cost_m": 15, "attr": {"straight": -0.05}},
+    {"cost_m": 20, "attr": {"straight": -0.05}},
+    {"cost_m": 25, "attr": {"straight": -0.05}},
+    {"cost_m": 30, "attr": {"straight": -0.05}},
+    {"cost_m": 35, "attr": {"straight": -0.05}},
+    {"cost_m": 40, "attr": {"straight": -0.05}},
+    {"cost_m": 45, "attr": {"straight": -0.05}},
+    {"cost_m": 50, "attr": {"straight": -0.05}},
+    {"cost_m": 55, "attr": {"straight": -0.05}},
+    {"cost_m": 60, "attr": {"straight": -0.05}}
+  ],
+  "chassis": [
+    {"cost_m": 15, "team_pace": -0.05},
+    {"cost_m": 25, "team_pace": -0.05},
+    {"cost_m": 40, "team_pace": -0.05},
+    {"cost_m": 55, "team_pace": -0.05},
+    {"cost_m": 70, "team_pace": -0.05},
+    {"cost_m": 85, "team_pace": -0.05},
+    {"cost_m": 100, "team_pace": -0.05},
+    {"cost_m": 115, "team_pace": -0.05},
+    {"cost_m": 130, "team_pace": -0.05},
+    {"cost_m": 145, "team_pace": -0.05}
+  ]
+}

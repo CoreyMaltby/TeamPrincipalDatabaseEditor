@@ -1,0 +1,276 @@
+{
+  "categories": {
+    "fuel": {
+      "suppliers": {
+        "Apex Fuel": {
+          "cost_m": 9.5,
+          "pace_rating": 85,
+          "reliability_rating": 88,
+          "preferred_engine": "Red Boar PU",
+          "variance": {"pace": 6, "reliability": 5}
+        },
+        "RossoBlend": {
+          "cost_m": 9.0,
+          "pace_rating": 80,
+          "reliability_rating": 86,
+          "preferred_engine": "Rossa",
+          "variance": {"pace": 6, "reliability": 5}
+        },
+        "Mercurion Prime": {
+          "cost_m": 10.0,
+          "pace_rating": 90,
+          "reliability_rating": 90,
+          "preferred_engine": "Mercurion",
+          "variance": {"pace": 6, "reliability": 5}
+        },
+        "Bleu Biofuel": {
+          "cost_m": 8.5,
+          "pace_rating": 78,
+          "reliability_rating": 92,
+          "preferred_engine": "French",
+          "variance": {"pace": 6, "reliability": 5}
+        },
+        "CosmoCharge": {
+          "cost_m": 7.5,
+          "pace_rating": 72,
+          "reliability_rating": 82,
+          "preferred_engine": "CosmoTech V6",
+          "variance": {"pace": 6, "reliability": 5}
+        }
+      }
+    },
+    "gearbox": {
+      "suppliers": {
+        "Quantum Gear": {
+          "cost_m": 6.5,
+          "pace_rating": 82,
+          "reliability_rating": 88,
+          "variance": {"pace": 5, "reliability": 4}
+        },
+        "Titan Gearworks": {
+          "cost_m": 6.0,
+          "pace_rating": 75,
+          "reliability_rating": 92,
+          "variance": {"pace": 5, "reliability": 4}
+        },
+        "Momentum Driveline": {
+          "cost_m": 5.5,
+          "pace_rating": 70,
+          "reliability_rating": 80,
+          "variance": {"pace": 5, "reliability": 4}
+        },
+        "Precision Shift": {
+          "cost_m": 5.8,
+          "pace_rating": 77,
+          "reliability_rating": 85,
+          "variance": {"pace": 5, "reliability": 4}
+        }
+      }
+    },
+    "suspension": {
+      "suppliers": {
+        "Skyline Dynamics": {
+          "cost_m": 5.2,
+          "pace_rating": 78,
+          "reliability_rating": 84,
+          "variance": {"pace": 5, "reliability": 4}
+        },
+        "Vertex Suspension": {
+          "cost_m": 5.4,
+          "pace_rating": 82,
+          "reliability_rating": 82,
+          "variance": {"pace": 5, "reliability": 4}
+        },
+        "Stratus Systems": {
+          "cost_m": 4.8,
+          "pace_rating": 68,
+          "reliability_rating": 80,
+          "variance": {"pace": 5, "reliability": 4}
+        },
+        "Aurora Ride": {
+          "cost_m": 5.6,
+          "pace_rating": 80,
+          "reliability_rating": 88,
+          "variance": {"pace": 5, "reliability": 4}
+        }
+      }
+    },
+    "brakes": {
+      "suppliers": {
+        "Cerberus Brakes": {
+          "cost_m": 4.5,
+          "pace_rating": 76,
+          "reliability_rating": 86,
+          "variance": {"pace": 4, "reliability": 4}
+        },
+        "NovaStop": {
+          "cost_m": 4.3,
+          "pace_rating": 74,
+          "reliability_rating": 84,
+          "variance": {"pace": 4, "reliability": 4}
+        },
+        "Pulse Performance": {
+          "cost_m": 4.0,
+          "pace_rating": 70,
+          "reliability_rating": 80,
+          "variance": {"pace": 4, "reliability": 4}
+        },
+        "SureGrip": {
+          "cost_m": 4.2,
+          "pace_rating": 72,
+          "reliability_rating": 88,
+          "variance": {"pace": 4, "reliability": 4}
+        }
+      }
+    },
+    "ecu": {
+      "suppliers": {
+        "NeuroCore": {
+          "cost_m": 5.0,
+          "pace_rating": 82,
+          "reliability_rating": 90,
+          "variance": {"pace": 4, "reliability": 4}
+        },
+        "Vector Logic": {
+          "cost_m": 4.6,
+          "pace_rating": 76,
+          "reliability_rating": 84,
+          "variance": {"pace": 4, "reliability": 4}
+        },
+        "PulseTronix": {
+          "cost_m": 4.4,
+          "pace_rating": 74,
+          "reliability_rating": 82,
+          "variance": {"pace": 4, "reliability": 4}
+        },
+        "Aether Control": {
+          "cost_m": 4.8,
+          "pace_rating": 78,
+          "reliability_rating": 86,
+          "variance": {"pace": 4, "reliability": 4}
+        }
+      }
+    }
+  },
+  "default_contracts": {
+    "Red Boar": {
+      "fuel": {"supplier": "Apex Fuel", "years": 5},
+      "gearbox": {"supplier": "Quantum Gear", "years": 4},
+      "suspension": {"supplier": "Skyline Dynamics", "years": 4},
+      "brakes": {"supplier": "Cerberus Brakes", "years": 3},
+      "ecu": {"supplier": "NeuroCore", "years": 4}
+    },
+    "Scuderia Rossa": {
+      "fuel": {"supplier": "RossoBlend", "years": 5},
+      "gearbox": {"supplier": "Titan Gearworks", "years": 4},
+      "suspension": {"supplier": "Vertex Suspension", "years": 4},
+      "brakes": {"supplier": "NovaStop", "years": 3},
+      "ecu": {"supplier": "Vector Logic", "years": 3}
+    },
+    "McMean": {
+      "fuel": {"supplier": "Mercurion Prime", "years": 3},
+      "gearbox": {"supplier": "Momentum Driveline", "years": 3},
+      "suspension": {"supplier": "Stratus Systems", "years": 2},
+      "brakes": {"supplier": "Pulse Performance", "years": 2},
+      "ecu": {"supplier": "PulseTronix", "years": 2}
+    },
+    "Mercurion": {
+      "fuel": {"supplier": "Mercurion Prime", "years": 5},
+      "gearbox": {"supplier": "Quantum Gear", "years": 4},
+      "suspension": {"supplier": "Aurora Ride", "years": 4},
+      "brakes": {"supplier": "SureGrip", "years": 3},
+      "ecu": {"supplier": "NeuroCore", "years": 4}
+    },
+    "Ashton Darting": {
+      "fuel": {"supplier": "CosmoCharge", "years": 3},
+      "gearbox": {"supplier": "Titan Gearworks", "years": 3},
+      "suspension": {"supplier": "Skyline Dynamics", "years": 2},
+      "brakes": {"supplier": "SureGrip", "years": 2},
+      "ecu": {"supplier": "Vector Logic", "years": 2}
+    },
+    "French Blue": {
+      "fuel": {"supplier": "Bleu Biofuel", "years": 5},
+      "gearbox": {"supplier": "Precision Shift", "years": 4},
+      "suspension": {"supplier": "Vertex Suspension", "years": 4},
+      "brakes": {"supplier": "NovaStop", "years": 3},
+      "ecu": {"supplier": "Aether Control", "years": 4}
+    },
+    "Alpha Bison": {
+      "fuel": {"supplier": "Apex Fuel", "years": 3},
+      "gearbox": {"supplier": "Momentum Driveline", "years": 3},
+      "suspension": {"supplier": "Stratus Systems", "years": 2},
+      "brakes": {"supplier": "Cerberus Brakes", "years": 2},
+      "ecu": {"supplier": "Vector Logic", "years": 2}
+    },
+    "Saubrenn": {
+      "fuel": {"supplier": "RossoBlend", "years": 3},
+      "gearbox": {"supplier": "Precision Shift", "years": 2},
+      "suspension": {"supplier": "Aurora Ride", "years": 2},
+      "brakes": {"supplier": "Pulse Performance", "years": 2},
+      "ecu": {"supplier": "PulseTronix", "years": 2}
+    },
+    "Hossden GP": {
+      "fuel": {"supplier": "CosmoCharge", "years": 4},
+      "gearbox": {"supplier": "Titan Gearworks", "years": 3},
+      "suspension": {"supplier": "Skyline Dynamics", "years": 3},
+      "brakes": {"supplier": "SureGrip", "years": 2},
+      "ecu": {"supplier": "Aether Control", "years": 3}
+    },
+    "Willens Racing": {
+      "fuel": {"supplier": "CosmoCharge", "years": 3},
+      "gearbox": {"supplier": "Momentum Driveline", "years": 3},
+      "suspension": {"supplier": "Vertex Suspension", "years": 3},
+      "brakes": {"supplier": "NovaStop", "years": 2},
+      "ecu": {"supplier": "PulseTronix", "years": 2}
+    },
+    "Cadylacky Motors": {
+      "fuel": {"supplier": "RossoBlend", "years": 2},
+      "gearbox": {"supplier": "Quantum Gear", "years": 3},
+      "suspension": {"supplier": "Stratus Systems", "years": 2},
+      "brakes": {"supplier": "Cerberus Brakes", "years": 2},
+      "ecu": {"supplier": "Vector Logic", "years": 2}
+    },
+    "Pantera F1": {
+      "fuel": {"supplier": "Mercurion Prime", "years": 3},
+      "gearbox": {"supplier": "Titan Gearworks", "years": 3},
+      "suspension": {"supplier": "Aurora Ride", "years": 2},
+      "brakes": {"supplier": "SureGrip", "years": 2},
+      "ecu": {"supplier": "NeuroCore", "years": 2}
+    },
+    "Lola Racing": {
+      "fuel": {"supplier": "Bleu Biofuel", "years": 2},
+      "gearbox": {"supplier": "Precision Shift", "years": 3},
+      "suspension": {"supplier": "Skyline Dynamics", "years": 2},
+      "brakes": {"supplier": "NovaStop", "years": 2},
+      "ecu": {"supplier": "Aether Control", "years": 2}
+    },
+    "Zephyr GP": {
+      "fuel": {"supplier": "Mercurion Prime", "years": 2},
+      "gearbox": {"supplier": "Momentum Driveline", "years": 2},
+      "suspension": {"supplier": "Stratus Systems", "years": 2},
+      "brakes": {"supplier": "Pulse Performance", "years": 2},
+      "ecu": {"supplier": "Vector Logic", "years": 2}
+    },
+    "Phoenix Racing": {
+      "fuel": {"supplier": "RossoBlend", "years": 2},
+      "gearbox": {"supplier": "Quantum Gear", "years": 2},
+      "suspension": {"supplier": "Aurora Ride", "years": 2},
+      "brakes": {"supplier": "Cerberus Brakes", "years": 2},
+      "ecu": {"supplier": "PulseTronix", "years": 2}
+    },
+    "Orion Motorsport": {
+      "fuel": {"supplier": "Bleu Biofuel", "years": 3},
+      "gearbox": {"supplier": "Titan Gearworks", "years": 2},
+      "suspension": {"supplier": "Skyline Dynamics", "years": 2},
+      "brakes": {"supplier": "SureGrip", "years": 2},
+      "ecu": {"supplier": "Aether Control", "years": 2}
+    },
+    "Valkyrie F1": {
+      "fuel": {"supplier": "CosmoCharge", "years": 2},
+      "gearbox": {"supplier": "Precision Shift", "years": 2},
+      "suspension": {"supplier": "Vertex Suspension", "years": 2},
+      "brakes": {"supplier": "Pulse Performance", "years": 2},
+      "ecu": {"supplier": "Vector Logic", "years": 2}
+    }
+  }
+}

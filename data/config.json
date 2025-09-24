@@ -1,0 +1,463 @@
+{
+  "dirty_air": {
+    "enabled": true,
+    "curve": [
+      {
+        "gap": 0.1,
+        "mult": 1.01
+      },
+      {
+        "gap": 0.3,
+        "mult": 1.008
+      },
+      {
+        "gap": 0.6,
+        "mult": 1.004
+      },
+      {
+        "gap": 1.0,
+        "mult": 1.002
+      },
+      {
+        "gap": 2.0,
+        "mult": 1.0
+      }
+    ],
+    "max_stack": 1,
+    "stack_decay": 0.5
+  },
+  "tyres": {
+    "enabled": true,
+    "compounds": {
+      "soft": {
+        "base_delta": -0.1,
+        "deg_per_lap": 0.038,
+        "cliff_lap": 14,
+        "optimal_temp": [
+          10,
+          20
+        ],
+        "optimal_wetness": [
+          0.0,
+          0.5
+        ]
+      },
+      "medium": {
+        "base_delta": 0.3,
+        "deg_per_lap": 0.02,
+        "cliff_lap": 20,
+        "optimal_temp": [
+          20,
+          30
+        ],
+        "optimal_wetness": [
+          0.0,
+          0.6
+        ]
+      },
+      "hard": {
+        "base_delta": 0.5,
+        "deg_per_lap": 0.014,
+        "cliff_lap": 30,
+        "optimal_temp": [
+          30,
+          40
+        ],
+        "optimal_wetness": [
+          0.0,
+          0.4
+        ]
+      },
+      "intermediate": {
+        "base_delta": 5.0,
+        "deg_per_lap": 0.03,
+        "cliff_lap": 18,
+        "optimal_temp": [
+          15,
+          30
+        ],
+        "optimal_wetness": [
+          1.0,
+          4.0
+        ]
+      },
+      "wet": {
+        "base_delta": 8.0,
+        "deg_per_lap": 0.04,
+        "cliff_lap": 22,
+        "optimal_temp": [
+          10,
+          25
+        ],
+        "optimal_wetness": [
+          4.0,
+          5.0
+        ]
+      }
+    },
+    "temperature_range": [
+      10,
+      40
+    ],
+    "temperature_effects": {
+      "cold": {
+        "max_c": 20,
+        "compounds": {
+          "soft": {
+            "pace": 0.0,
+            "wear_mult": 1.0
+          },
+          "medium": {
+            "pace": 0.22,
+            "wear_mult": 1.08
+          },
+          "hard": {
+            "pace": 0.38,
+            "wear_mult": 1.15
+          },
+          "intermediate": {
+            "pace": 0.1,
+            "wear_mult": 1.05
+          },
+          "wet": {
+            "pace": 0.18,
+            "wear_mult": 1.08
+          }
+        }
+      },
+      "hot": {
+        "min_c": 30,
+        "compounds": {
+          "soft": {
+            "pace": 0.18,
+            "wear_mult": 1.12
+          },
+          "medium": {
+            "pace": 0.12,
+            "wear_mult": 1.07
+          },
+          "hard": {
+            "pace": 0.0,
+            "wear_mult": 1.0
+          },
+          "intermediate": {
+            "pace": 0.15,
+            "wear_mult": 1.1
+          },
+          "wet": {
+            "pace": 0.24,
+            "wear_mult": 1.12
+          }
+        }
+      }
+    },
+    "wetness_range": [
+      0.0,
+      5.0
+    ],
+    "wetness_effects": {
+      "dry": {
+        "max_mm": 0.25,
+        "compounds": {
+          "soft": {
+            "pace": 0.0,
+            "wear_mult": 1.0
+          },
+          "medium": {
+            "pace": 0.0,
+            "wear_mult": 1.0
+          },
+          "hard": {
+            "pace": 0.0,
+            "wear_mult": 1.0
+          },
+          "intermediate": {
+            "pace": 5.0,
+            "wear_mult": 1.35
+          },
+          "wet": {
+            "pace": 8.0,
+            "wear_mult": 1.6
+          }
+        }
+      },
+      "moist": {
+        "min_mm": 0.25,
+        "max_mm": 0.5,
+        "compounds": {
+          "soft": {
+            "pace": 0.8,
+            "wear_mult": 1.0
+          },
+          "medium": {
+            "pace": 0.6,
+            "wear_mult": 1.0
+          },
+          "hard": {
+            "pace": 0.4,
+            "wear_mult": 1.0
+          },
+          "intermediate": {
+            "pace": 4.0,
+            "wear_mult": 1.15
+          },
+          "wet": {
+            "pace": 7.5,
+            "wear_mult": 1.25
+          }
+        }
+      },
+      "damp_patches": {
+        "min_mm": 0.5,
+        "max_mm": 0.75,
+        "compounds": {
+          "soft": {
+            "pace": 2.0,
+            "wear_mult": 1.0
+          },
+          "medium": {
+            "pace": 1.75,
+            "wear_mult": 1.0
+          },
+          "hard": {
+            "pace": 1.5,
+            "wear_mult": 1.0
+          },
+          "intermediate": {
+            "pace": 2.5,
+            "wear_mult": 1.02
+          },
+          "wet": {
+            "pace": 7.0,
+            "wear_mult": 1.1
+          }
+        }
+      },
+      "crossover": {
+        "min_mm": 0.75,
+        "max_mm": 1.0,
+        "compounds": {
+          "soft": {
+            "pace": 4.0,
+            "wear_mult": 0.9
+          },
+          "medium": {
+            "pace": 3.75,
+            "wear_mult": 0.9
+          },
+          "hard": {
+            "pace": 3.5,
+            "wear_mult": 0.9
+          },
+          "intermediate": {
+            "pace": 1.0,
+            "wear_mult": 0.98
+          },
+          "wet": {
+            "pace": 6.0,
+            "wear_mult": 1.05
+          }
+        }
+      },
+      "light_wet_low": {
+        "min_mm": 1.0,
+        "max_mm": 1.5,
+        "compounds": {
+          "soft": {
+            "pace": 7.5,
+            "wear_mult": 0.8
+          },
+          "medium": {
+            "pace": 7.25,
+            "wear_mult": 0.8
+          },
+          "hard": {
+            "pace": 7.0,
+            "wear_mult": 0.8
+          },
+          "intermediate": {
+            "pace": 0.0,
+            "wear_mult": 0.95
+          },
+          "wet": {
+            "pace": 5.0,
+            "wear_mult": 1.02
+          }
+        }
+      },
+      "light_wet_high": {
+        "min_mm": 1.5,
+        "max_mm": 2.0,
+        "compounds": {
+          "soft": {
+            "pace": 8.5,
+            "wear_mult": 1.0
+          },
+          "medium": {
+            "pace": 8.25,
+            "wear_mult": 1.0
+          },
+          "hard": {
+            "pace": 8.0,
+            "wear_mult": 1.0
+          },
+          "intermediate": {
+            "pace": 0.0,
+            "wear_mult": 0.94
+          },
+          "wet": {
+            "pace": 4.0,
+            "wear_mult": 1.0
+          }
+        }
+      },
+      "wet_track": {
+        "min_mm": 2.0,
+        "max_mm": 3.0,
+        "compounds": {
+          "soft": {
+            "pace": 10.5,
+            "wear_mult": 1.0
+          },
+          "medium": {
+            "pace": 10.25,
+            "wear_mult": 1.0
+          },
+          "hard": {
+            "pace": 10.0,
+            "wear_mult": 1.0
+          },
+          "intermediate": {
+            "pace": 0.0,
+            "wear_mult": 0.92
+          },
+          "wet": {
+            "pace": 2.0,
+            "wear_mult": 0.98
+          }
+        }
+      },
+      "soaked": {
+        "min_mm": 3.0,
+        "max_mm": 4.0,
+        "compounds": {
+          "soft": {
+            "pace": 15.0,
+            "wear_mult": 1.0
+          },
+          "medium": {
+            "pace": 14.75,
+            "wear_mult": 1.0
+          },
+          "hard": {
+            "pace": 14.5,
+            "wear_mult": 1.0
+          },
+          "intermediate": {
+            "pace": 0.5,
+            "wear_mult": 0.9
+          },
+          "wet": {
+            "pace": 1.0,
+            "wear_mult": 0.95
+          }
+        }
+      },
+      "monsoon": {
+        "min_mm": 4.0,
+        "max_mm": 4.5,
+        "compounds": {
+          "soft": {
+            "pace": 20.0,
+            "wear_mult": 1.0
+          },
+          "medium": {
+            "pace": 20.0,
+            "wear_mult": 1.0
+          },
+          "hard": {
+            "pace": 20.0,
+            "wear_mult": 1.0
+          },
+          "intermediate": {
+            "pace": 5.0,
+            "wear_mult": 0.88
+          },
+          "wet": {
+            "pace": 0.0,
+            "wear_mult": 0.93
+          }
+        }
+      },
+      "flooded": {
+        "min_mm": 4.5,
+        "max_mm": 5.0,
+        "compounds": {
+          "soft": {
+            "pace": 20.0,
+            "wear_mult": 1.1
+          },
+          "medium": {
+            "pace": 20.0,
+            "wear_mult": 1.1
+          },
+          "hard": {
+            "pace": 20.0,
+            "wear_mult": 1.1
+          },
+          "intermediate": {
+            "pace": 5.0,
+            "wear_mult": 0.86
+          },
+          "wet": {
+            "pace": 2.0,
+            "wear_mult": 0.9
+          }
+        }
+      }
+    },
+    "wear_to_laptime_mult": 3.5,
+    "default_compound": "medium",
+    "start_probabilities": {
+      "soft": 0.3,
+      "medium": 0.35,
+      "hard": 0.15,
+      "intermediate": 0.12,
+      "wet": 0.08
+    }
+  },
+  "pitstops": {
+    "enabled": true,
+    "strategy": "wear_threshold",
+    "wear_threshold": 0.55,
+    "pit_lane_loss_s": 18.5,
+    "fail_prob": 0.003,
+    "fail_extra_s": [
+      1.0,
+      6.0
+    ],
+    "max_lap_fraction": 0.8
+  },
+  "incidents": {
+    "spin_prob_per_lap": 0.005,
+    "spin_loss_s": [
+      1.0,
+      10.0
+    ],
+    "collision_prob_per_lap": 0.002,
+    "collision_close_s": 0.1,
+    "mechanical_dnf_prob_per_lap": 0.0012,
+    "crash_dnf_prob_per_lap": 0.0012
+  },
+  "safety_car": {
+    "pace_factor": 0.5,
+    "catch_gap_s": 1.0,
+    "catchup_pace_factor": 1.8
+  },
+  "injuries": {
+    "dnf_injury_chance": 0.01,
+    "severe_chance": 0.1,
+    "minor_weeks": 5,
+    "severe_weeks": 20
+  }
+}
